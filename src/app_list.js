@@ -163,7 +163,7 @@ export function App_List()
         </div>
 
 
-        <div className="row">
+        <div className="row mt-2">
             <ul className="notes">
                 {Tareas.map((item) => <App_Item key={item.id} titulo={item.title} desc={item.desc} warn={item.warning} timestamp={item.date}/>)}                
             </ul>
