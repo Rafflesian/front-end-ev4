@@ -1,0 +1,39 @@
+body
+{
+    padding: 10px;
+}
+
+.formPadding
+{
+    padding: 4px;
+}
+
+ul.notes li
+{
+    margin: 10px 40px 50px 0px;
+    float: left;
+}
+  
+ul.notes li, ul.tag-list li
+{
+    list-style: none;
+}
+  
+ul.notes li div small
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 10px;
+}
+  
+div.rotate-n
+{
+    transform: rotate(-1deg);
+}
+  
+div.rotate-p 
+{
+    transform: rotate(1deg);
+    position: sticky;
+}
